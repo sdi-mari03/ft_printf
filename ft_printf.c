@@ -6,7 +6,7 @@
 /*   By: sdi-mari <sdi-mari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 19:55:27 by sdi-mari          #+#    #+#             */
-/*   Updated: 2024/02/20 18:12:16 by sdi-mari         ###   ########.fr       */
+/*   Updated: 2024/02/20 18:28:47 by sdi-mari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,14 +77,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
-
-
-/*int main()
-{
-	ft_printf("%%\n");
-	ft_printf("%s\n", "Eh porcoddio");
-	ft_printf("%d\n", 10);
-	ft_printf("%i\n", 10);
-	ft_printf("%x\n", 15);
-	ft_printf("%X\n", 15);
-}*/
